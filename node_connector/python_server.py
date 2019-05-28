@@ -30,6 +30,10 @@ class Server:
         else:
             return "no active player"
 
+    def test(self):
+        print "pepper is detecting speech"
+        return 'lol'
+
 # s = zerorpc.Server(HelloRPC())
 # s.bind("tcp://0.0.0.0:4242")
 # s.run()
