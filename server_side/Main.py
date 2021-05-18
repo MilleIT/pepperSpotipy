@@ -24,7 +24,6 @@ class Main:
         # usrnm = sp.user(user)
         # print usrnm
 
-        # r = requests.get(url=' https://accounts.spotify.com/authorize?scope=app-remote-control+playlist-read-private+streaming+user-modify-playback-state+user-read-currently-playing+user-read-playback-state+user-read-recently-played&redirect_uri=http%3A%2F%2Flocalhost%2F&response_type=code&client_id=e7c8d90f7d5246089e8e0e1f6274f07b', auth=('vanoschmillen@gmail.com','!@Fruiparva12'))
         # print r.history.headers
         scope = 'user-read-recently-played user-read-currently-playing user-read-playback-state app-remote-control user-modify-playback-state streaming'# playlist-read-private'
         # username = 'fazzh49d3su4s342ivmxbb74m'
